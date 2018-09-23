@@ -1,0 +1,35 @@
+Tutorial Python Python adalah bahasa yang mudah dipelajari, bahasa pemrograman yang kuat. Ini memiliki struktur data tingkat tinggi yang efisien dan pendekatan yang sederhana namun efektif untuk pemrograman berorientasi objek. Sintaksis dan pengetikan dinamis Python yang elegan, bersama dengan sifatnya yang ditafsirkan, menjadikannya bahasa yang ideal untuk pengembangan aplikasi skrip dan cepat di banyak area pada kebanyakan platform.
+
+Interpreter Python dan pustaka standar yang luas tersedia secara bebas dalam bentuk sumber atau biner untuk semua platform utama dari situs Web Python, https://www.python.org/ , dan dapat didistribusikan secara bebas. Situs yang sama juga berisi distribusi dan penunjuk ke banyak modul, program dan perangkat Python pihak ketiga gratis, dan dokumentasi tambahan.
+
+Interpreter Python mudah diperluas dengan fungsi baru dan tipe data yang diimplementasikan dalam C atau C ++ (atau bahasa lain dapat dipanggil dari C). Python juga cocok sebagai bahasa ekstensi untuk aplikasi yang dapat disesuaikan.
+
+Tutorial ini memperkenalkan pembaca secara informal kepada konsep dasar dan fitur dari bahasa dan sistem Python. Ini membantu untuk memiliki interpreter Python yang berguna untuk pengalaman langsung, tetapi semua contoh sudah lengkap, jadi tutorialnya dapat dibaca secara off-line juga.
+
+Untuk deskripsi objek standar dan modul, lihat Perpustakaan Standar Python . Referensi Bahasa Python memberikan definisi bahasa yang lebih formal. Untuk menulis ekstensi dalam C atau C ++, baca Memperluas dan Menanamkan Python Interpreter dan Python / C API Reference Manual . Ada juga beberapa buku yang membahas tentang Python secara mendalam.
+
+Tutorial ini tidak berusaha untuk menjadi komprehensif dan mencakup setiap fitur tunggal, atau bahkan setiap fitur yang umum digunakan. Sebaliknya, ia memperkenalkan banyak fitur yang paling penting dari Python, dan akan memberi Anda ide yang bagus tentang selera dan gaya bahasa. Setelah membacanya, Anda akan dapat membaca dan menulis modul dan program Python, dan Anda akan siap untuk mempelajari lebih lanjut tentang berbagai modul pustaka Python yang dijelaskan dalam Pustaka Standar Python . Jika Anda melakukan banyak pekerjaan di komputer, akhirnya Anda menemukan bahwa ada beberapa tugas yang ingin Anda otomatisasi. Misalnya, Anda mungkin ingin melakukan pencarian-dan-ganti atas sejumlah besar file teks, atau mengubah nama dan mengatur ulang sekelompok file foto dengan cara yang rumit. Mungkin Anda ingin menulis basis data khusus yang kecil, atau aplikasi GUI khusus, atau permainan sederhana.
+
+Jika Anda seorang pengembang perangkat lunak profesional, Anda mungkin harus bekerja dengan beberapa pustaka C / C ++ / Java tetapi menemukan siklus penulisan / kompilasi / uji / kompilasi ulang yang biasa terlalu lambat. Mungkin Anda sedang menulis sebuah test suite untuk perpustakaan seperti itu dan menemukan menulis kode pengujian tugas yang membosankan. Atau mungkin Anda telah menulis program yang bisa menggunakan bahasa ekstensi, dan Anda tidak ingin mendesain dan menerapkan bahasa baru untuk aplikasi Anda.
+
+Python hanyalah bahasa untuk Anda.
+
+Anda dapat menulis skrip shell Unix atau file batch Windows untuk beberapa tugas ini, tetapi skrip shell paling baik dalam memindahkan file dan mengubah data teks, tidak cocok untuk aplikasi atau game GUI. Anda dapat menulis program C / C ++ / Java, tetapi perlu banyak waktu pengembangan untuk mendapatkan bahkan program draf pertama. Python lebih mudah digunakan, tersedia di sistem operasi Windows, Mac OS X, dan Unix, dan akan membantu Anda menyelesaikan pekerjaan lebih cepat.
+
+Python mudah digunakan, tetapi ini adalah bahasa pemrograman nyata, menawarkan lebih banyak struktur dan dukungan untuk program besar daripada skrip shell atau file batch yang dapat ditawarkan. Di sisi lain, Python juga menawarkan lebih banyak pengecekan error daripada C, dan, sebagai bahasa tingkat sangat tinggi , Python memiliki tipe data tingkat tinggi yang dibangun, seperti larik dan kamus yang fleksibel. Karena tipe data yang lebih umum, Python dapat diterapkan ke domain masalah yang jauh lebih besar daripada Awk atau bahkan Perl, namun banyak hal setidaknya sama mudahnya dengan Python seperti dalam bahasa-bahasa tersebut.
+
+Python memungkinkan Anda membagi program Anda menjadi modul yang dapat digunakan kembali dalam program Python lainnya. Muncul dengan banyak koleksi modul standar yang dapat Anda gunakan sebagai dasar program Anda - atau sebagai contoh untuk mulai belajar memprogram dengan Python. Beberapa dari modul ini menyediakan hal-hal seperti file I / O, panggilan sistem, soket, dan bahkan antarmuka ke toolkit antarmuka pengguna grafis seperti Tk.
+
+Python adalah bahasa yang ditafsirkan, yang dapat menghemat banyak waktu selama pengembangan program karena tidak ada kompilasi dan penautan yang diperlukan. Interpreter dapat digunakan secara interaktif, yang membuatnya mudah untuk bereksperimen dengan fitur-fitur bahasa, untuk menulis program-program yang dibuang, atau untuk menguji fungsi selama pengembangan program dari bawah ke atas. Ini juga merupakan kalkulator meja yang berguna.
+
+Python memungkinkan program ditulis secara ringkas dan mudah dibaca. Program yang ditulis dengan Python biasanya jauh lebih pendek daripada program C, C ++, atau Java yang setara, karena beberapa alasan:
+
+tipe data tingkat tinggi memungkinkan Anda untuk mengekspresikan operasi kompleks dalam satu pernyataan; pengelompokan pernyataan dilakukan oleh indentasi sebagai pengawal awal dan akhir; tidak ada deklarasi variabel atau argumen yang diperlukan. Python dapat dikembangkan : jika Anda tahu cara memprogram dalam C, mudah untuk menambahkan fungsi atau modul built-in baru ke interpreter, baik untuk melakukan operasi penting pada kecepatan maksimum, atau untuk menautkan program Python ke pustaka yang mungkin hanya tersedia dalam bentuk biner (seperti pustaka grafis khusus vendor). Setelah Anda benar-benar terpikat, Anda dapat menghubungkan interpreter Python ke aplikasi yang ditulis dalam C dan menggunakannya sebagai ekstensi atau bahasa perintah untuk aplikasi itu.
+
+By the way, bahasa ini dinamai setelah acara BBC "Monty Python Terbang Circus" dan tidak ada hubungannya dengan reptil. Membuat referensi ke sandiwara Monty Python dalam dokumentasi tidak hanya diizinkan, itu dianjurkan!
+
+Sekarang Anda semua bersemangat tentang Python, Anda akan ingin memeriksanya secara lebih rinci. Karena cara terbaik untuk belajar bahasa adalah dengan menggunakannya, tutorial ini mengajak Anda untuk bermain dengan penerjemah Python saat Anda membaca.
+
+Di bab berikutnya, mekanisme penggunaan penerjemah dijelaskan. Ini adalah informasi yang agak biasa, tetapi penting untuk mencoba contoh yang ditunjukkan nanti.
+
+Bagian lain dari tutorial ini memperkenalkan berbagai fitur bahasa dan sistem Python melalui contoh, dimulai dengan ekspresi sederhana, pernyataan dan tipe data, melalui fungsi dan modul, dan akhirnya menyentuh konsep-konsep lanjutan seperti pengecualian dan kelas yang ditentukan pengguna.
