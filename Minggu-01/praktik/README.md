@@ -1,42 +1,27 @@
-# Install Python 3.7 di ubuntu 18.04
+1. Buka File python-3.msi
+Setelah download selesai, kita akan mendapatkan file python-3.4.2.msi. File python-3.4.2.msi adalah file instalator python. File ini akan melakukan instalasi ke sistem windows.
 
-## Langkah 1 - Prasyarat
-#### Gunakan perintah berikut untuk menginstall prasyarat untuk Python sebelum menginstalnya.
+Klik ganda untuk mengeksekusinya.
 
-```bash
-$ sudo apt-get install build-essential checkinstall
-$ sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev \
-    libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
-```
+File instalator python
+2. Pilih Pengguna
+Pada tahapan ini kita akan diminta untuk memilih siapa saja yang boleh memakai python.
 
-## Langkah 2 - Unduh Python 3.7
-#### Unduh [Python](https://www.python.org/) menggunakan perintah berikut dari situs resmi python. Anda juga dapat mengunduh versi terbaru di tempat yang ditentukan di bawah ini.
+Pilih saja ‘Install for all users’ agar bisa dipakai untuk semua user di komputernya.
 
-```bash
-$ cd /usr/src
-$ wget wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
-```
+Pemilihan Pengguna Python
+3. Lokasi Instalasi
+Tentukan lokasi python akan diinstal. Biarkan saja di C:\python34\, kemudian klik next.
 
-#### Sekarang ekstrak paket yang diunduh.
+Lokasi Instal
+4. Kostumisasi
+Pada tahapan ini, kita akan menentukan fitur-fitur yang akan diinstal.
 
-```bash
-$ sudo tar xzf Python-3.7.0.tgz
-```
-## Langkah 3 - Kumpulkan Python Source
-#### Gunakan set perintah di bawah ini untuk mengkompilasi kode sumber python pada sistem anda menggunakan altinstall.
+Jangan lupa untuk mengaktifkan ‘Add python.exe to path’ agar perintah python dikenali pada CMD (Command Prompt).
 
-```bash
-$ cd Python-3.7.0
-$ sudo ./configure --enable-optimizations
-$ sudo make altinstall
-```
+Kustomisasi Python
+Setelah diaktifkan, akan menjadi seperti ini:
 
-#### membuat altinstall digunakan untuk mencegah mengganti file biner python default / usr / bin / python.
-
-## Langkah 4 - Periksa Versi Python
-#### Periksa versi terbaru menginstal python menggunakan perintah di bawah ini.
-
-```bash
-$ python3.7 -V
-```
----
+Kustomisasi Python
+5. Selesai…
+Klik finish untuk menyelesaikan.
