@@ -1,0 +1,9 @@
+>>> import random
+>>> random.choice(['apple', 'pear', 'banana'])
+'banana'
+>>> random.sample(range(100), 10)
+[25, 38, 94, 11, 40, 42, 44, 57, 30, 19]
+>>> random.random()
+0.8113014615373206
+>>> random.randrange(6)
+1
