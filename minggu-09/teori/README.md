@@ -21,23 +21,23 @@ Dokumen notebook berisi input dan output dari sesi interaktif serta teks tambaha
   adalah untuk menulis program dan bisa di simpan dalam bentuk IPNB (Interaktif Paython NoteBook)
   
 # Cara instal 
-  Prasyarat: Python 
+ - Prasyarat: Python 
 Sementara Jupyter menjalankan kode dalam banyak bahasa pemrograman, Python adalah persyaratan (Python 3.3 atau lebih besar, atau Python 2.7) untuk menginstal Notebook Jupyter.
 
 Kami merekomendasikan menggunakan distribusi Anaconda untuk menginstal Python dan Jupyter. Kami akan pergi melalui instalasi di bagian selanjutnya.
 
-Memasang Jupyter menggunakan Anaconda dan conda 
+- Memasang Jupyter menggunakan Anaconda dan conda 
 Untuk pengguna baru, kami sangat menyarankan menginstal Anaconda . Anaconda dengan mudah menginstal Python, Notebook Jupyter, dan paket lain yang biasa digunakan untuk komputasi ilmiah dan ilmu data.
 
 Gunakan langkah-langkah instalasi berikut:
 
-Unduh Anaconda . Kami merekomendasikan mengunduh versi Python 3 terbaru dari Anaconda (saat ini Python 3.5).
+- Unduh Anaconda . Kami merekomendasikan mengunduh versi Python 3 terbaru dari Anaconda (saat ini Python 3.5).
 
-Instal versi Anaconda yang Anda unduh, ikuti petunjuk di halaman unduh.
+- Instal versi Anaconda yang Anda unduh, ikuti petunjuk di halaman unduh.
 
 Selamat, Anda telah menginstal Jupyter Notebook. Untuk menjalankan notebook:
 
-jupyter notebook
+- jupyter notebook
 Lihat Menjalankan Notebook untuk detail lebih lanjut.
   
 # cara menggunakannya
