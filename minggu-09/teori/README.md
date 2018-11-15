@@ -1,6 +1,6 @@
-JUPYTER
+# JUPYTER
 
-The Jupyter Notebook 
+# The Jupyter Notebook 
 Pendahuluan 
 Notebook ini memperluas pendekatan berbasis konsol untuk komputasi interaktif dalam arah yang baru secara kualitatif, menyediakan aplikasi berbasis web yang cocok untuk menangkap seluruh proses komputasi: mengembangkan, mendokumentasikan, dan mengeksekusi kode, serta mengkomunikasikan hasilnya. Notebook Jupyter menggabungkan dua komponen.
 
@@ -24,14 +24,14 @@ Kemampuan untuk dengan mudah memasukkan notasi matematika dalam sel-sel penuruna
 Dokumen buku 
 Dokumen notebook berisi input dan output dari sesi interaktif serta teks tambahan yang menyertai kode tetapi tidak dimaksudkan untuk eksekusi. Dengan cara ini, file-file notebook dapat berfungsi sebagai catatan komputasional lengkap dari sesi, interleaving kode yang dapat dieksekusi dengan teks penjelasan, matematika, dan representasi yang kaya dari objek yang dihasilkan. Dokumen-dokumen ini secara internal file JSON dan disimpan dengan .ipynbekstensi. Karena JSON adalah format teks biasa, mereka dapat dikendalikan oleh versi dan dibagikan dengan rekan kerja.
 
--apa itu jupyter
+# apa itu jupyter
   adalah lingkungan yang dibuat untuk interaktif komputing, dan aplikasi open source yang memungkinkan kita utuk membuat dan berbagi dokumen yang berisi kode langsung, persamaan, visualisasi, dan teks naratif.
   
--fungsi dari jupyter 
+# fungsi dari jupyter 
   adalah untuk menulis program dan bisa di simpan dalam bentuk IPNB (Interaktif Paython NoteBook)
   
--Cara instal 
+# Cara instal 
   yaitu dengan cara menginstal paket anaconda
   
--cara menggunakannya
+# cara menggunakannya
   yaitu dengan cara mengetikan "Jupyter Notebook"
