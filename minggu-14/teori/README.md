@@ -1,0 +1,1 @@
+# teori minggu 14
